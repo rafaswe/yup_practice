@@ -33,7 +33,7 @@ input {
   box-shadow: 4px 4px 8px rgb(177, 176, 176);
   border-radius: 20px;
   border: none;
-  margin: 2rem auto;
+  margin: auto;
   height: fit-content;
   background-color: rgb(255, 249, 235);
 }
@@ -45,6 +45,14 @@ input {
   width: 50%;
   margin: 0 auto;
   padding-bottom: 0.5rem;
+}
+.flex-box {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.pb {
+  padding-bottom: 3px;
 }
 #button {
   background-color: rgb(245, 229, 195);
